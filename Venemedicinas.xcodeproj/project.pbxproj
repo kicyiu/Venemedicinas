@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E37C4011F7C2FD900D92A37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E37C4001F7C2FD900D92A37 /* AppDelegate.m */; };
+		6E37C4041F7C2FD900D92A37 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E37C4031F7C2FD900D92A37 /* FirstViewController.m */; };
+		6E37C4071F7C2FD900D92A37 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E37C4061F7C2FD900D92A37 /* SecondViewController.m */; };
+		6E37C40A1F7C2FD900D92A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E37C4081F7C2FD900D92A37 /* Main.storyboard */; };
+		6E37C40C1F7C2FD900D92A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E37C40B1F7C2FD900D92A37 /* Assets.xcassets */; };
+		6E37C40F1F7C2FD900D92A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E37C40D1F7C2FD900D92A37 /* LaunchScreen.storyboard */; };
+		6E37C4121F7C2FD900D92A37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E37C4111F7C2FD900D92A37 /* main.m */; };
+		6E37C41C1F7C2FD900D92A37 /* VenemedicinasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E37C41B1F7C2FD900D92A37 /* VenemedicinasTests.m */; };
+		6E37C4271F7C2FD900D92A37 /* VenemedicinasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E37C4261F7C2FD900D92A37 /* VenemedicinasUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E37C4181F7C2FD900D92A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E37C3F41F7C2FD900D92A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E37C3FB1F7C2FD900D92A37;
+			remoteInfo = Venemedicinas;
+		};
+		6E37C4231F7C2FD900D92A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E37C3F41F7C2FD900D92A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E37C3FB1F7C2FD900D92A37;
+			remoteInfo = Venemedicinas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E37C3FC1F7C2FD900D92A37 /* Venemedicinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venemedicinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37C3FF1F7C2FD900D92A37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E37C4001F7C2FD900D92A37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E37C4021F7C2FD900D92A37 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6E37C4031F7C2FD900D92A37 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6E37C4051F7C2FD900D92A37 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6E37C4061F7C2FD900D92A37 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6E37C4091F7C2FD900D92A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E37C40B1F7C2FD900D92A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E37C40E1F7C2FD900D92A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E37C4101F7C2FD900D92A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E37C4111F7C2FD900D92A37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E37C4171F7C2FD900D92A37 /* VenemedicinasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenemedicinasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37C41B1F7C2FD900D92A37 /* VenemedicinasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenemedicinasTests.m; sourceTree = "<group>"; };
+		6E37C41D1F7C2FD900D92A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E37C4221F7C2FD900D92A37 /* VenemedicinasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenemedicinasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37C4261F7C2FD900D92A37 /* VenemedicinasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenemedicinasUITests.m; sourceTree = "<group>"; };
+		6E37C4281F7C2FD900D92A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E37C3F91F7C2FD900D92A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37C4141F7C2FD900D92A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37C41F1F7C2FD900D92A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E37C3F31F7C2FD900D92A37 = {
+			isa = PBXGroup;
+			children = (
+				6E37C3FE1F7C2FD900D92A37 /* Venemedicinas */,
+				6E37C41A1F7C2FD900D92A37 /* VenemedicinasTests */,
+				6E37C4251F7C2FD900D92A37 /* VenemedicinasUITests */,
+				6E37C3FD1F7C2FD900D92A37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E37C3FD1F7C2FD900D92A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E37C3FC1F7C2FD900D92A37 /* Venemedicinas.app */,
+				6E37C4171F7C2FD900D92A37 /* VenemedicinasTests.xctest */,
+				6E37C4221F7C2FD900D92A37 /* VenemedicinasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E37C3FE1F7C2FD900D92A37 /* Venemedicinas */ = {
+			isa = PBXGroup;
+			children = (
+				6E37C3FF1F7C2FD900D92A37 /* AppDelegate.h */,
+				6E37C4001F7C2FD900D92A37 /* AppDelegate.m */,
+				6E37C4021F7C2FD900D92A37 /* FirstViewController.h */,
+				6E37C4031F7C2FD900D92A37 /* FirstViewController.m */,
+				6E37C4051F7C2FD900D92A37 /* SecondViewController.h */,
+				6E37C4061F7C2FD900D92A37 /* SecondViewController.m */,
+				6E37C4081F7C2FD900D92A37 /* Main.storyboard */,
+				6E37C40B1F7C2FD900D92A37 /* Assets.xcassets */,
+				6E37C40D1F7C2FD900D92A37 /* LaunchScreen.storyboard */,
+				6E37C4101F7C2FD900D92A37 /* Info.plist */,
+				6E37C4111F7C2FD900D92A37 /* main.m */,
+			);
+			path = Venemedicinas;
+			sourceTree = "<group>";
+		};
+		6E37C41A1F7C2FD900D92A37 /* VenemedicinasTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E37C41B1F7C2FD900D92A37 /* VenemedicinasTests.m */,
+				6E37C41D1F7C2FD900D92A37 /* Info.plist */,
+			);
+			path = VenemedicinasTests;
+			sourceTree = "<group>";
+		};
+		6E37C4251F7C2FD900D92A37 /* VenemedicinasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E37C4261F7C2FD900D92A37 /* VenemedicinasUITests.m */,
+				6E37C4281F7C2FD900D92A37 /* Info.plist */,
+			);
+			path = VenemedicinasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E37C3FB1F7C2FD900D92A37 /* Venemedicinas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37C42B1F7C2FD900D92A37 /* Build configuration list for PBXNativeTarget "Venemedicinas" */;
+			buildPhases = (
+				6E37C3F81F7C2FD900D92A37 /* Sources */,
+				6E37C3F91F7C2FD900D92A37 /* Frameworks */,
+				6E37C3FA1F7C2FD900D92A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Venemedicinas;
+			productName = Venemedicinas;
+			productReference = 6E37C3FC1F7C2FD900D92A37 /* Venemedicinas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E37C4161F7C2FD900D92A37 /* VenemedicinasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37C42E1F7C2FD900D92A37 /* Build configuration list for PBXNativeTarget "VenemedicinasTests" */;
+			buildPhases = (
+				6E37C4131F7C2FD900D92A37 /* Sources */,
+				6E37C4141F7C2FD900D92A37 /* Frameworks */,
+				6E37C4151F7C2FD900D92A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E37C4191F7C2FD900D92A37 /* PBXTargetDependency */,
+			);
+			name = VenemedicinasTests;
+			productName = VenemedicinasTests;
+			productReference = 6E37C4171F7C2FD900D92A37 /* VenemedicinasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E37C4211F7C2FD900D92A37 /* VenemedicinasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37C4311F7C2FD900D92A37 /* Build configuration list for PBXNativeTarget "VenemedicinasUITests" */;
+			buildPhases = (
+				6E37C41E1F7C2FD900D92A37 /* Sources */,
+				6E37C41F1F7C2FD900D92A37 /* Frameworks */,
+				6E37C4201F7C2FD900D92A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E37C4241F7C2FD900D92A37 /* PBXTargetDependency */,
+			);
+			name = VenemedicinasUITests;
+			productName = VenemedicinasUITests;
+			productReference = 6E37C4221F7C2FD900D92A37 /* VenemedicinasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E37C3F41F7C2FD900D92A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alberto Tsang";
+				TargetAttributes = {
+					6E37C3FB1F7C2FD900D92A37 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					6E37C4161F7C2FD900D92A37 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E37C3FB1F7C2FD900D92A37;
+					};
+					6E37C4211F7C2FD900D92A37 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E37C3FB1F7C2FD900D92A37;
+					};
+				};
+			};
+			buildConfigurationList = 6E37C3F71F7C2FD900D92A37 /* Build configuration list for PBXProject "Venemedicinas" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E37C3F31F7C2FD900D92A37;
+			productRefGroup = 6E37C3FD1F7C2FD900D92A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E37C3FB1F7C2FD900D92A37 /* Venemedicinas */,
+				6E37C4161F7C2FD900D92A37 /* VenemedicinasTests */,
+				6E37C4211F7C2FD900D92A37 /* VenemedicinasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E37C3FA1F7C2FD900D92A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37C40F1F7C2FD900D92A37 /* LaunchScreen.storyboard in Resources */,
+				6E37C40C1F7C2FD900D92A37 /* Assets.xcassets in Resources */,
+				6E37C40A1F7C2FD900D92A37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37C4151F7C2FD900D92A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37C4201F7C2FD900D92A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E37C3F81F7C2FD900D92A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37C4071F7C2FD900D92A37 /* SecondViewController.m in Sources */,
+				6E37C4011F7C2FD900D92A37 /* AppDelegate.m in Sources */,
+				6E37C4121F7C2FD900D92A37 /* main.m in Sources */,
+				6E37C4041F7C2FD900D92A37 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37C4131F7C2FD900D92A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37C41C1F7C2FD900D92A37 /* VenemedicinasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37C41E1F7C2FD900D92A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37C4271F7C2FD900D92A37 /* VenemedicinasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E37C4191F7C2FD900D92A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E37C3FB1F7C2FD900D92A37 /* Venemedicinas */;
+			targetProxy = 6E37C4181F7C2FD900D92A37 /* PBXContainerItemProxy */;
+		};
+		6E37C4241F7C2FD900D92A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E37C3FB1F7C2FD900D92A37 /* Venemedicinas */;
+			targetProxy = 6E37C4231F7C2FD900D92A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E37C4081F7C2FD900D92A37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E37C4091F7C2FD900D92A37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E37C40D1F7C2FD900D92A37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E37C40E1F7C2FD900D92A37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E37C4291F7C2FD900D92A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E37C42A1F7C2FD900D92A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E37C42C1F7C2FD900D92A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4452HV7WN2;
+				INFOPLIST_FILE = Venemedicinas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Venemedicinas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E37C42D1F7C2FD900D92A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4452HV7WN2;
+				INFOPLIST_FILE = Venemedicinas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Venemedicinas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E37C42F1F7C2FD900D92A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4452HV7WN2;
+				INFOPLIST_FILE = VenemedicinasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VenemedicinasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venemedicinas.app/Venemedicinas";
+			};
+			name = Debug;
+		};
+		6E37C4301F7C2FD900D92A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4452HV7WN2;
+				INFOPLIST_FILE = VenemedicinasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VenemedicinasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venemedicinas.app/Venemedicinas";
+			};
+			name = Release;
+		};
+		6E37C4321F7C2FD900D92A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4452HV7WN2;
+				INFOPLIST_FILE = VenemedicinasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VenemedicinasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Venemedicinas;
+			};
+			name = Debug;
+		};
+		6E37C4331F7C2FD900D92A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4452HV7WN2;
+				INFOPLIST_FILE = VenemedicinasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VenemedicinasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Venemedicinas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E37C3F71F7C2FD900D92A37 /* Build configuration list for PBXProject "Venemedicinas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37C4291F7C2FD900D92A37 /* Debug */,
+				6E37C42A1F7C2FD900D92A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37C42B1F7C2FD900D92A37 /* Build configuration list for PBXNativeTarget "Venemedicinas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37C42C1F7C2FD900D92A37 /* Debug */,
+				6E37C42D1F7C2FD900D92A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37C42E1F7C2FD900D92A37 /* Build configuration list for PBXNativeTarget "VenemedicinasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37C42F1F7C2FD900D92A37 /* Debug */,
+				6E37C4301F7C2FD900D92A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37C4311F7C2FD900D92A37 /* Build configuration list for PBXNativeTarget "VenemedicinasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37C4321F7C2FD900D92A37 /* Debug */,
+				6E37C4331F7C2FD900D92A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E37C3F41F7C2FD900D92A37 /* Project object */;
+}
