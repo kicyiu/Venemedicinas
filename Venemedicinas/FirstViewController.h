@@ -10,6 +10,10 @@
 
 @interface FirstViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *mediText;
+
+- (IBAction)buscarPressed:(UIButton *)sender;
+
+- (IBAction)mediTextEnter:(UITextField *)sender;
 
 @end
-
